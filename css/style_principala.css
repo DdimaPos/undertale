@@ -13,23 +13,7 @@ a:focus,a:active{outline: none;}
 
 nav,footer,header,aside{display: block;}
 
-@font-face {
-	font-family: "Gauranga-pixel";
-	src: url("../fonts/Gouranga/Gouranga-Pixel.ttf") format("truetype");
-}
 
-@font-face {
-	font-family: "Rubik-r";
-	src: url("../fonts/Rubik/Rubik-Regular.ttf") format("truetype");
-}
-@font-face {
-	font-family: "Rubik-b";
-	src: url("../fonts/Rubik/Rubik-Bold.ttf") format("truetype");
-}
-@font-face {
-	font-family: "Rubik-i";
-	src: url("../fonts/Rubik/Rubik-Italic.ttf") format("truetype");
-}
 html,body{
 	height: 100%;
 	width: 100%;
@@ -132,7 +116,9 @@ h1{
 hr{
 	margin: 0 auto;
 }
-
+.evid{
+	color: yellow;
+}
 .info p{
 	padding: 10px 10px 0 10px;
 }
@@ -148,7 +134,18 @@ hr{
 	padding: 0  0 0 30px;
 	font-family: Rubik-i;
 }
-
+.prezentare{
+	display: flex;
+	align-items:center;
+}
+.dialog{
+	
+	width: fit-content;
+	background-color: rgb(95, 12, 121);
+	border-radius: 20px;
+	padding: 25px;
+	font-family: "Gauranga-pixel";
+}
 .link{
 	color: #CD38C9;
 }
@@ -162,3 +159,28 @@ hr{
 	font-family: Rubik-i;
 }
 
+@font-face {
+	font-family: "Gauranga-pixel";
+	src: url("../fonts/Gouranga/Gouranga-Pixel.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Rubik-r";
+	src: url("../fonts/Rubik/Rubik-Regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Rubik-b";
+	src: url("../fonts/Rubik/Rubik-Bold.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Rubik-i";
+	src: url("../fonts/Rubik/Rubik-Italic.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Comic-Sans";
+	src: url("../fonts/comic_sans/Comic_sans_pixel.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Papyrus-pixel";
+	src: url("../fonts/papyrus_pixel/papyrus-pixel.ttf") format("truetype");
+}
