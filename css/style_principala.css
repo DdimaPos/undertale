@@ -13,6 +13,23 @@ a:focus,a:active{outline: none;}
 
 nav,footer,header,aside{display: block;}
 
+@font-face {
+	font-family: "Gauranga-pixel";
+	src: url("../fonts/Gouranga/Gouranga-Pixel.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Rubik-r";
+	src: url("../fonts/Rubik/Rubik-Regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Rubik-b";
+	src: url("../fonts/Rubik/Rubik-Bold.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Rubik-i";
+	src: url("../fonts/Rubik/Rubik-Italic.ttf") format("truetype");
+}
 html,body{
 	height: 100%;
 	width: 100%;
@@ -145,20 +162,3 @@ hr{
 	font-family: Rubik-i;
 }
 
-@font-face {
-	font-family: "Gauranga-pixel";
-	src: url("../fonts/Gouranga/Gouranga-Pixel.ttf") format("truetype");
-}
-
-@font-face {
-	font-family: "Rubik-r";
-	src: url("../fonts/Rubik/Rubik-Regular.ttf") format("truetype");
-}
-@font-face {
-	font-family: "Rubik-b";
-	src: url("../fonts/Rubik/Rubik-Bold.ttf") format("truetype");
-}
-@font-face {
-	font-family: "Rubik-i";
-	src: url("../fonts/Rubik/Rubik-Italic.ttf") format("truetype");
-}
