@@ -48,6 +48,13 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	padding: 10px 0 0 10px;
 }
 @font-face {
-	font-family: "Gauranga-pixel";
-	src: url("../fonts/Gouranga/Gouranga-Pixel.ttf") format("truetype");
-}
+	font-family: 'Gouranga-pixel';
+	src: url('../fonts/Gouranga/Gouranga-Pixel.eot');
+	src: url('../fonts/Gouranga/Gouranga-Pixel.eot?#iefix') format('embedded-opentype'),
+		  url('../fonts/Gouranga/Gouranga-Pixel.svg#Gouranga-Pixel') format('svg'),
+		  url('../fonts/Gouranga/Gouranga-Pixel.ttf') format('truetype'),
+		  url('../fonts/Gouranga/Gouranga-Pixel.woff') format('woff'),
+		  url('../fonts/Gouranga/Gouranga-Pixel.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+ }

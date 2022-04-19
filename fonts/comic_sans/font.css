@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Comic-Sans-MS-pixel-rus-eng';
+  src: url('Comic-Sans-MS-pixel-rus-eng.svg#Comic-Sans-MS-pixel-rus-eng') format('svg'),
+       url('Comic-Sans-MS-pixel-rus-eng.ttf') format('truetype'),
+       url('Comic-Sans-MS-pixel-rus-eng.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Comic_sans_pixel';
+  src: url('Comic_sans_pixel.eot');
+  src: url('Comic_sans_pixel.eot?#iefix') format('embedded-opentype'),
+       url('Comic_sans_pixel.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

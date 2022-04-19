@@ -222,19 +222,55 @@ hr{
 }
 
 @font-face {
-	font-family: "Gauranga-pixel";
-	src: url("../fonts/Gouranga/Gouranga-Pixel.ttf") format("truetype");
-}
+	font-family: 'Gouranga-pixel';
+	src: url('../fonts/Gouranga/Gouranga-Pixel.eot');
+	src: url('../fonts/Gouranga/Gouranga-Pixel.eot?#iefix') format('embedded-opentype'),
+		  url('../fonts/Gouranga/Gouranga-Pixel.svg#Gouranga-Pixel') format('svg'),
+		  url('../fonts/Gouranga/Gouranga-Pixel.ttf') format('truetype'),
+		  url('../fonts/Gouranga/Gouranga-Pixel.woff') format('woff'),
+		  url('../fonts/Gouranga/Gouranga-Pixel.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+ }
+ 
+ 
 
 @font-face {
-	font-family: "Rubik-r";
-	src: url("../fonts/Rubik/Rubik-Regular.ttf") format("truetype");
-}
-@font-face {
-	font-family: "Rubik-b";
-	src: url("../fonts/Rubik/Rubik-Bold.ttf") format("truetype");
-}
-@font-face {
-	font-family: "Rubik-i";
-	src: url("../fonts/Rubik/Rubik-Italic.ttf") format("truetype");
-}
+	font-family: 'Rubik-r';
+	src: url('../fonts/rubik/Rubik-Regular.eot');
+	src: url('../fonts/rubik/Rubik-Regular.eot?#iefix') format('embedded-opentype'),
+		  url('../fonts/rubik/Rubik-Regular.svg#Rubik-Regular') format('svg'),
+		  url('../fonts/rubik/Rubik-Regular.ttf') format('truetype'),
+		  url('../fonts/rubik/Rubik-Regular.woff') format('woff'),
+		  url('../fonts/rubik/Rubik-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+ }
+ 
+ 
+ @font-face {
+	font-family: 'Rubik-b';
+	src: url('../fonts/rubik/Rubik-Bold.eot');
+	src: url('../fonts/rubik/Rubik-Bold.eot?#iefix') format('embedded-opentype'),
+		  url('../fonts/rubik/Rubik-Bold.svg#Rubik-Bold') format('svg'),
+		  url('../fonts/rubik/Rubik-Bold.ttf') format('truetype'),
+		  url('../fonts/rubik/Rubik-Bold.woff') format('woff'),
+		  url('../fonts/rubik/Rubik-Bold.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+ }
+ 
+ 
+ @font-face {
+	font-family: 'Rubik-i';
+	src: url('../fonts/rubik/Rubik-Italic.eot');
+	src: url('../fonts/rubik/Rubik-Italic.eot?#iefix') format('embedded-opentype'),
+		  url('../fonts/rubik/Rubik-Italic.svg#Rubik-Italic') format('svg'),
+		  url('../fonts/rubik/Rubik-Italic.ttf') format('truetype'),
+		  url('../fonts/rubik/Rubik-Italic.woff') format('woff'),
+		  url('../fonts/rubik/Rubik-Italic.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+ }
+ 
+ 
