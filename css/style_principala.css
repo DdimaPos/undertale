@@ -58,7 +58,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	
 }
 .navigation{
-	font-family: "Gouranga Pixel";
+	font-family: "Gouranga-pixel";
 	font-size: 20px;
 	display: inline-flex;
 	justify-content: space-between;
@@ -72,6 +72,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	display: flex;
 	padding: 1.3% 2% 1% 2%;
 	color: white;
+	align-items: center;
 }
 
 .choose:hover{
@@ -79,7 +80,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 .choose:before{
 	content: "";
-	margin: 0px 2px 0 0;
+	margin: 0 2px 0 0;
 	width: 15px;
 	height: 15px;
 	display: inline-block;
@@ -90,10 +91,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	content: "";
 	background-image:url('../img/soul.png');
 	background-size: 100% 100%;
-	margin: 0px 2px 0 0;
+	margin: 0 2px 0 0;
 	width: 15px;
 	height: 15px;
 	display: inline-block;
+	
 }
 
 .info{

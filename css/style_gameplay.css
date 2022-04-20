@@ -58,7 +58,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 .navigation{
 	padding: 2px;
-	font-family: "Gouranga Pixel";
+	font-family: "Gouranga-pixel";
 	font-size: 27px;
 	display: inline-flex;
 	justify-content: space-between;
@@ -75,6 +75,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	display: flex;
 	padding: 0.4% 0.2% 0.2% 0.2%;
 	color: rgb(230, 139, 35);
+	align-items: center;
 }
 
 
@@ -82,7 +83,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	content: "";
 	background-image:url('../img/fight.png');
 	background-size: 100% 100%;
-	margin: 4px 2px 0 2px;
+	margin: 0 2px 0 2px;
 	width: 15px;
 	height: 15px;
 	display: inline-block;
@@ -91,7 +92,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	content: "";
 	background-image:url('../img/act.png');
 	background-size: 100% 100%;
-	margin: 4px 2px 0 2px;
+	margin: 0 2px 0 2px;
 	width: 15px;
 	height: 15px;
 	display: inline-block;
@@ -100,7 +101,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	content: "";
 	background-image:url('../img/item.png');
 	background-size: 100% 100%;
-	margin: 4px 2px 0 2px;
+	margin: 0 2px 0 2px;
 	width: 15px;
 	height: 15px;
 	display: inline-block;
@@ -109,7 +110,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	content: "";
 	background-image:url('../img/mercy.png');
 	background-size: 100% 100%;
-	margin: 4px 2px 0 2px;
+	margin: 0 2px 0 2px;
 	width: 15px;
 	height: 15px;
 	display: inline-block;
@@ -124,7 +125,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	content: "";
 	background-image:url('../img/soul.png');
 	background-size: 100% 100%;
-	margin: 4px 2px 0 2px;
+	margin: 0 2px 0 2px;
 	width: 15px;
 	height: 15px;
 	display: inline-block;
@@ -133,7 +134,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	content: "";
 	background-image:url('../img/soul.png');
 	background-size: 100% 100%;
-	margin: 4px 2px 0 2px;
+	margin: 0 2px 0 2px;
 	width: 15px;
 	height: 15px;
 	display: inline-block;
@@ -142,7 +143,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	content: "";
 	background-image:url('../img/soul.png');
 	background-size: 100% 100%;
-	margin: 4px 2px 0 2px;
+	margin: 0 2px 0 2px;
 	width: 15px;
 	height: 15px;
 	display: inline-block;
@@ -151,7 +152,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	content: "";
 	background-image:url('../img/soul.png');
 	background-size: 100% 100%;
-	margin: 4px 2px 0 2px;
+	margin: 0 2px 0 2px;
 	width: 15px;
 	height: 15px;
 	display: inline-block;
@@ -160,7 +161,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	content: "";
 	background-image:url('../img/soul.png');
 	background-size: 100% 100%;
-	margin: 4px 2px 0 2px;
+	margin: 0 2px 0 2px;
 	width: 15px;
 	height: 15px;
 	display: inline-block;
