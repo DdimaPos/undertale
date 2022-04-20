@@ -77,20 +77,27 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 .choose:hover{
 	color: yellow;
+	transition: 0.25s;
 }
 .choose:before{
 	content: "";
 	margin: 0 2px 0 0;
+	background-image:url('../img/soul.png');
+	background-size: 100% 100%;
+	
 	width: 15px;
 	height: 15px;
 	display: inline-block;
+	transition: 0.3s;
+	opacity: 0;
 }
 
 .choose:hover:before{
-	color: yellow;
+	
 	content: "";
 	background-image:url('../img/soul.png');
 	background-size: 100% 100%;
+	opacity: 1;
 	margin: 0 2px 0 0;
 	width: 15px;
 	height: 15px;

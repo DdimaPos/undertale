@@ -69,6 +69,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	border-width: 7px;
 }
 .choose {
+	position: relative;
 	border-width: 2px;
 	border-style: solid;
 	border-color: rgb(230, 139, 35);
@@ -76,8 +77,21 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	padding: 0.4% 0.2% 0.2% 0.2%;
 	color: rgb(230, 139, 35);
 	align-items: center;
+	transition: 0.25s;
 }
-
+.choose:before{
+	color: yellow;
+	content: "";
+	background-image:url('../img/soul.png');
+	background-size: 100% 100%;
+	margin: 0 2px 0 2px;
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	opacity: 0;
+	position: absolute;
+	transition: 0.25s;
+}
 
 .choose#fight:before{
 	content: "";
@@ -87,6 +101,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	width: 15px;
 	height: 15px;
 	display: inline-block;
+	opacity: 1;
+	position: relative;
 }
 .choose#act:before{
 	content: "";
@@ -96,6 +112,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	width: 15px;
 	height: 15px;
 	display: inline-block;
+	opacity: 1;
+	position: relative;
 }
 .choose#item:before{
 	content: "";
@@ -105,6 +123,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	width: 15px;
 	height: 15px;
 	display: inline-block;
+	opacity: 1;
+	position: relative;
 }
 .choose#mercy:before{
 	content: "";
@@ -114,6 +134,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	width: 15px;
 	height: 15px;
 	display: inline-block;
+	opacity: 1;
+	position: relative;
 }
 
 .choose:hover{
@@ -121,7 +143,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 .choose:hover:before{
-	color: yellow;
+	
 	content: "";
 	background-image:url('../img/soul.png');
 	background-size: 100% 100%;
@@ -129,6 +151,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	width: 15px;
 	height: 15px;
 	display: inline-block;
+	opacity: 1;
 }
 .choose#fight:hover:before{
 	content: "";
