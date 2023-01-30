@@ -5,4 +5,4 @@ I solved it by converting the font in .ttf format into readable formats for all 
 * ### The second was the correct display of elements in the navigation block
 I used flex to make the distance between elements always remainin the same no matter what width the screen has
 * ### And the last problem was and probably remains the non-working autoplay attribute for music
-It's a separate page if you click on the 'undertale' banner. It is working on some PC's including mine, but on othrs music doesn't play
+It's a separate page if you click on the 'undertale' banner. It is working on some PC's including mine, but on othrs music doesn't play due to Google's new updates after many complaint about unwanted ads
